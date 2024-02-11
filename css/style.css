@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'TWKEverett';
+    src: url('../fonts/twkeverett/TWKEverett-Regular.otf') format('opentype');
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'TWKEverett';
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+/* ================================================================================= */
+/* Header */
+.header {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.header__logo {
+    margin: 70px 0 45px 0;
+    text-align: center;
+}
+.header__heading {
+}
+.header__title {
+    text-align: center;
+    font-size: 60px;
+    margin: 0 0 5px 0;
+}
+.header_subtitle {
+    text-align: center;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+/* ======================================================================= */
+/* Main */
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Title Section */
+
+.title {
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+/* Section First */
+
+.section {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.section__heading {
+    text-align: center;
+    font-size: 32px;
+    margin: 0 0 120px 0;
+}
+
+.section__content {
+    display: flex;
+    gap: 10%;
+}
+
+.section__content-reverse {
+    flex-direction: row-reverse;
+}
+.section__text {
+    max-width: 35%;
+}
+.section__title {
+    color: #acacac;
+    font-size: 13px;
+}
+.section__subtitle {
+    font-size: 18px;
+}
+.section__image {
+    max-width: 40%;
+}
+.postcard {
+    text-align: center;
+}
+.postcard__content {
+}
+.postcard__logo {
+}
+.postcard__text {
+}
+.postcard__instagram {
+}
+.postcard__button {
+}
+.footer {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.copyright {
+}
+.copyright__address {
+}
+.copyright__reserved {
+}
+.unsubscribe {
+}
