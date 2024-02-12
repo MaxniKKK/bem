@@ -107,17 +107,40 @@ body {
 
 .postcard {
     text-align: center;
+    background-image: url(/BEM/img/workout_background.png);
+    width: 640px;
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: 0 auto;
 }
 .postcard__content {
 }
 .postcard__logo {
+    padding: 42px 0 0 0;
 }
 .postcard__text {
+    color: #0c0c0c;
+    font-size: 32px;
+    max-width: 450px;
+    margin: 0 auto;
 }
 .postcard__instagram {
+    margin: 24px 0 0 0;
 }
 .postcard__button {
+    width: 194px;
+    height: 48px;
+    padding: 14px, 24px;
+    border-radius: 30px;
+    border: 1px solid black;
+    background: none;
 }
+
+/* Footer section */
+
 .footer {
     max-width: 800px;
     margin: 0 auto;
