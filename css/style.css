@@ -74,7 +74,7 @@ body {
     max-width: 90%;
     margin: 0 auto;
     display: flex;
-    gap: 20%;
+    gap: 15%;
 }
 
 .section__content-reverse {
@@ -86,8 +86,13 @@ body {
 }
 
 .section__text {
-    max-width: 35%;
+    max-width: 50%;
 }
+
+.section__text_second {
+    max-width: 33%;
+}
+
 .section__title {
     color: #acacac;
     font-size: 13px;
@@ -107,12 +112,9 @@ body {
 
 .postcard {
     text-align: center;
-    background-image: url(/BEM/img/workout_background.png);
+    background: url(/BEM/img/workout_background.png) center/cover no-repeat;
     width: 640px;
     height: 270px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     border-radius: 20px;
     margin: 0 auto;
 }
@@ -133,10 +135,18 @@ body {
 .postcard__button {
     width: 194px;
     height: 48px;
-    padding: 14px, 24px;
+    padding: 14px;
     border-radius: 30px;
     border: 1px solid black;
     background: none;
+}
+
+.postcard__button-link,
+.postcard__button-link:hover,
+.postcard__button-link:active,
+.postcard__button-link:visited {
+    text-decoration: none;
+    color: black;
 }
 
 /* Footer section */
